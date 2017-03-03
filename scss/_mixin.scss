@@ -1,0 +1,23 @@
+/* Scss Document */
+
+@mixin position($position) {
+  position: $position;
+}
+
+@mixin line-height($lineheight)
+{
+	line-height: $lineheight;
+}
+@mixin font-size($font-size)
+{
+	font-size:$font-size;
+}
+
+@mixin padding($padding)
+{
+	padding: $padding;
+}
+@mixin margin ($margin)
+{
+	margin: $margin;
+}

@@ -1,0 +1,36 @@
+/* Scss Document */
+
+#header
+{
+	height:100vh;
+}
+.profile-pic
+{
+	background-image:url(#{$logo_image}avatar.jpg);
+	width: 250px;
+    height: 250px;
+	border-radius:50%;
+}
+.everythingcenter
+{
+	@include position(absolute);
+	top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    width: 50%;
+    
+}
+.fullHeight
+{
+	
+	height:100%;
+}
+.lightColour
+{
+	
+	background: lighten($body_bd, 2%);
+}
+.darkColour
+{
+	
+	background: $body_bd;
+}

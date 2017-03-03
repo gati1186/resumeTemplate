@@ -1,0 +1,14 @@
+{
+  "name": "newsite",
+  "description": "Just learning sass and gulp",
+  "main": "index.js",
+  "authors": [
+    "Gati Shah <gati@modmedia.com.au>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "dependencies": {
+    "jquery": "1",
+    "bootstrap": "^3.3.7"
+  }
+}
