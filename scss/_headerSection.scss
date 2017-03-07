@@ -3,6 +3,14 @@
 #header
 {
 	height:100vh;
+	footer
+	{
+		position: absolute;
+    	top: 90%;
+    	left: 50%;
+    	transform: translate(-50%, -50%);
+    	width: 90%
+	}
 }
 .profile-pic
 {
@@ -33,4 +41,19 @@
 {
 	
 	background: $body_bd;
+}
+.about-me
+{
+	h1
+	{
+	@include font-size(96px);
+	color: #e0a80d;
+	}
+	h4
+	{
+		transform: translate(-50%, -50%);
+    	position: absolute;
+   		max-width: 500px;
+    	left: 35%;
+	}
 }

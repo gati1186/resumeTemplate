@@ -1,0 +1,14 @@
+/* Scss Document */
+
+body
+{
+	background-color: $body_bd;
+	color: $body_color;
+	@include font-size (16px);
+
+}
+.mainContainer
+{
+	max-width:1200px;
+	margin:0 auto;
+}
